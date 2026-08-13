@@ -10,6 +10,8 @@ inputs:
 workflow:
   type: cwl
   file: workflow/cwl/worldpopulation-slurmcern.cwl
+  files:
+    - workflow/cwl/worldpopulation.tool
 outputs:
   files:
     - outputs/plot.png
